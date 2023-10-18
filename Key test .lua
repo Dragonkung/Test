@@ -84,6 +84,14 @@ CoreGui:SetCore("SendNotification", {
 			Duration = 5;
 			TextColor3 = Color3.fromRGB(255, 255, 255)
 			})
+		elseif Input.Text == "Devput" then
+			CoreGui:SetCore("SendNotification", {
+			Title = "Kawnew X 4.0 (Beta) ";
+			Text = "Dev Scrip Is Run...";
+			Duration = 5;
+			TextColor3 = Color3.fromRGB(255, 255, 255)
+			})
+		main.Visible = false
 		else
 		WrongKey.Visible = true
 		
