@@ -92,6 +92,8 @@ CoreGui:SetCore("SendNotification", {
 			TextColor3 = Color3.fromRGB(255, 255, 255)
 			})
 		main.Visible = false
+         elseif Input.Text == "4.0" then
+
 		else
 		WrongKey.Visible = true
 		
@@ -120,11 +122,11 @@ GetKey.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 GetKey.Position = UDim2.new(0.2, 0, 0.55, 0)
 GetKey.Size = UDim2.new(0, 120, 0, 20)
 GetKey.Font = Enum.Font.SourceSans
-GetKey.Text = 'Copy Get Key Link'
+GetKey.Text = 'Key '
 GetKey.TextColor3 = Color3.fromRGB(0, 0, 0)
 GetKey.TextSize = 11.000
 GetKey.MouseButton1Down:connect(function()
-	setclipboard("https://sites.google.com/view/kawnew1/%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%81")
+	setclipboard("4")
 	
 	CoreGui:SetCore("SendNotification", {
 			Title = "Kawnew X 4.0 (Beta) ";
