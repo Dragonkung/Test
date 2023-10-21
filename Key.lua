@@ -93,7 +93,7 @@ CoreGui:SetCore("SendNotification", {
 			})
 		main.Visible = false
          elseif Input.Text == "4.0" then
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Dragonkung/KawnewX/main/K_Now%20Hub%20(Fix%20Bug).txt'))()
 		else
 		WrongKey.Visible = true
 		
