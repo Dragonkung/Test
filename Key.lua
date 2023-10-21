@@ -76,14 +76,10 @@ CoreGui:SetCore("SendNotification", {
 			Duration = 5;
 			TextColor3 = Color3.fromRGB(255, 255, 255)
 			})
-       elseif Input.Text == "know-beta-test" then
+       elseif Input.Text == "Bladball then
 		main.Visible = false
-CoreGui:SetCore("SendNotification", {
-			Title = "Kawnew X 4.0 (Beta) ";
-			Text = "K_Now Beta test is runing...";
-			Duration = 5;
-			TextColor3 = Color3.fromRGB(255, 255, 255)
-			})
+_G.UI_Size = 200 -- config ui size
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
 		elseif Input.Text == "Devput" then
 			CoreGui:SetCore("SendNotification", {
 			Title = "Kawnew X 4.0 (Beta) ";
