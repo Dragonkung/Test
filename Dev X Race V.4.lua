@@ -1005,25 +1005,8 @@
     local tx = SOMEXHUB:AddTab("ผ่านด่านทำเผ่า","7251993295")
     local rn = SOMEXHUB:AddTab("อื่นๆ","6034900727")
     local er = SOMEXHUB:AddTab("อื่นๆสำหรับเผ่า 4","6034900727")
-    
-    -----------------    -----------------    -----------------    -----------------    -----------------    -----------------  
-    
-u:AddSeperator("Update 1")
-u:AddLabel("-Add NewTap ")
-u:AddLabel("-FixBug(Kill aura) ")
-u:AddLabel("-Update Anti Lag/Cpuclock ")
-u:AddLabel("-Fix Human TP")
-u:AddSeperator("Update 2")
-u:AddLabel("-Fix Lag In Dungeon")
-u:AddLabel("-Update Performance Graphics ")
-u:AddSeperator("Update 3")
-u:AddLabel("-Update Sky Trial")
-u:AddLabel("-Remove Shsdow 50% ")
-u:AddSeperator("Update 4")
-u:AddLabel("-FixHuman TP")
-u:AddLabel("-Fix TP To Temple of time")
-u:AddLable("-Add new ไปที่หน้าปะตู+บนกระจก")
------update------
+        -----------------    -----------------    -----------------    -----------------    -----------------    -----------------  
+
     Main:AddSeperator("Main")
     
     Time = Main:AddLabel("Server Time")
@@ -1170,3 +1153,24 @@ game.Players.LocalPlayer.Character.InfiniteStairs.Disabled = value
     er:AddSeperator("แปลงร่างเผ่า 4(เเค่ อนิเมชั่น)")
 er:AddButton("Comming Soon!!",function()
     end)
+
+
+
+    -----------------    -----------------    -----------------    -----------------    -----------------    -----------------  
+    
+u:AddSeperator("Update 1")
+u:AddLabel("-Add NewTap ")
+u:AddLabel("-FixBug(Kill aura) ")
+u:AddLabel("-Update Anti Lag/Cpuclock ")
+u:AddLabel("-Fix Human TP")
+u:AddSeperator("Update 2")
+u:AddLabel("-Fix Lag In Dungeon")
+u:AddLabel("-Update Performance Graphics ")
+u:AddSeperator("Update 3")
+u:AddLabel("-Update Sky Trial")
+u:AddLabel("-Remove Shsdow 50% ")
+u:AddSeperator("Update 4")
+u:AddLabel("-FixHuman TP")
+u:AddLabel("-Fix TP To Temple of time")
+u:AddLable("-Add new ไปที่หน้าปะตู+บนกระจก")
+-----update------
