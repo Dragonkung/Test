@@ -1001,7 +1001,7 @@
     -----------------    -----------------    ----------------- -----------------    -----------------    -----------------  
     local u = SOMEXHUB:AddTab("เกี่ยวกับการอัพเดต","6026568198")
     local Main = SOMEXHUB:AddTab("วาร์ปไปที่ทำเผ่า","6026568198")
-    local n = SOMEXHUB:AddTab("วาร์ป เร็วคำคมเดียวกะมารุ [เร็วกว่าที่เขาจะรักมึงอีก]","6026568198")
+    local n = SOMEXHUB:AddTab("วาร์ป เร็ว","6026568198")
     local tx = SOMEXHUB:AddTab("ผ่านด่านทำเผ่า","7251993295")
     local rn = SOMEXHUB:AddTab("อื่นๆ","6034900727")
     local er = SOMEXHUB:AddTab("อื่นๆสำหรับเผ่า 4","6034900727")
@@ -1039,6 +1039,12 @@
            Main:AddButton("ไปที่ รับเควสหัวเเดง(ต้องอยู่ใน Temple)",function()
 Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28981.552734375, 14888.4267578125, -120.245849609375)
     end)
+    Main:AddButton("ไปบนกระจก55655",function()
+Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28732.138671875, 15146.9716796875, -120.55301666259766)
+end)
+Main:AddButton("ไปหน้าประตู",function()
+Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28568.78515625, 14890.5078125, -87.11679077148438)
+end)
         Main:AddLabel("ประตูเผ่า")
         
      Main:AddButton("ไปที่ ประตูเผ่าไซบอร์ก(ต้องอยู่ใน Temple)",function()
@@ -1064,12 +1070,7 @@ Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFram
             Main:AddButton("ไปที่ ประตูเผ่าสกาย(ต้องอยู่ใน Temple)",function()
 Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28967.408203125, 14918.0751953125, 234.31198120117188)
     end)
-    Main:AddButton("ไปบนกระจก55655",function()
-Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28732.138671875, 15146.9716796875, -120.55301666259766)
-end)
-Main:AddButton("ไปหน้าประตู",function()
-Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28568.78515625, 14890.5078125, -87.11679077148438)
-end)
+    
             tx:AddLabel("ผ่านด่าน")
             
       tx:AddButton("ไปที่เส้นชัยเผ่าสกาย",function()
@@ -1105,16 +1106,30 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalP
        end
    end
   end)
-end)
-
-    n:AddSeperator("Tp")
+n:AddLabel("เร็วกว่าที่เขาจะรักมึงอีก")
     n:AddButton("Mansion",function()
      game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance",Vector3.new(-12471.169921875, 374.94024658203, -7551.677734375))
     end)
      n:AddButton("Npc Temple of time",function()
  Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2947.556884765625, 2281.630615234375, -7213.54931640625)
     end)
-    
+    n:AddButton("TIki Outpost"),function()
+    game.Players.LocalPlayer.Character.Head:Destroygame.Players.LocalPlayer.Character.Head:Destroy()
+Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-16214.486328125, 9.06057357788086, 517.6160888671875)
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
+end)
+    n:AddButton("Hunter Castle",function()
+    game.Players.LocalPlayer.Character.Head:Destroy()
+Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9516.5712890625, 142.1048126220703, 5539.66748046875)
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
+end)
+n:AddButton("Great Tree ",function()
+game.Players.LocalPlayer.Character.Head:Destroy()
+Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2264.283203125, 29.852697372436523, -6411.03466796875)
+end)
+n:AddButton("Castle on the sea",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/5yXt3WH5"))()
+end)
       rn:AddSeperator("Misc")
     Weapon = {}
     
