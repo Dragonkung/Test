@@ -1102,7 +1102,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalP
   end)
 end)
 
-    n:AddSeperator("Tp")
+    n:AddSeperator("เร็วกว่าที่เขารักมึงอีก")
     n:AddButton("Mansion",function()
      game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance",Vector3.new(-12471.169921875, 374.94024658203, -7551.677734375))
     end)
@@ -1174,5 +1174,8 @@ u:AddLabel("-Update Performance Graphics ")
 u:AddSeperator("Update 3")
 u:AddLabel("-FixBug Ui on/off")
 u:AddLabel("-Update HumanTP ")
+u:AddSeperator("Update 4")
+u:AddLabel("-FixBug Scrip Not run")
+u:AddLabel("-Add Bypass TP")
 
 -----update
