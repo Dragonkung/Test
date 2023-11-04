@@ -1,31 +1,4 @@
     --เสือกอีเเก่
---เปิดหาพ่อง
-
-
-
---onoff
-local ScreenGui = Instance.new("ScreenGui")
-    local Toggle = Instance.new("TextButton")
-    
-    ScreenGui.Name = "ScreenGui"
-    ScreenGui.Parent = game.CoreGui
-    
-    Toggle.Name = "Toggle"
-    Toggle.Parent = ScreenGui
-    Toggle.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-    Toggle.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
-    Toggle.Size = UDim2.new(0, 50, 0, 50)
-    Toggle.Font = Enum.Font.Code
-    Toggle.Text = "Ui"
-    Toggle.TextColor3 = Color3.fromRGB(255, 0, 0)
-    Toggle.TextScaled = true
-    Toggle.MouseButton1Down:connect(function()
-        game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
-    game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
-    end)
---end
-
-
     game:GetService("Players").LocalPlayer.Idled:connect(function()
         game:GetService("VirtualUser"):Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
         wait(1)
@@ -1035,7 +1008,19 @@ local ScreenGui = Instance.new("ScreenGui")
     
     -----------------    -----------------    -----------------    -----------------    -----------------    -----------------  
     
+u:AddSeperator("Update 1")
+u:AddLabel("-Add NewTap ")
+u:AddLabel("-FixBug(Kill aura) ")
+u:AddLabel("-Update Anti Lag/Cpuclock ")
+u:AddLabel("-Fix Human TP")
+u:AddSeperator("Update 2")
+u:AddLabel("-Fix Lag In Dungeon")
+u:AddLabel("-Update Performance Graphics ")
+u:AddSeperator("Update 3")
+u:AddLabel("-FixBug Ui on/off")
+u:AddLabel("-Update HumanTP ")
 
+-----update------
     Main:AddSeperator("Main")
     
     Time = Main:AddLabel("Server Time")
@@ -1128,25 +1113,14 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalP
   end)
 end)
 
-    n:AddSeperator("เร็วกว่าที่เขารักมึงอีก")
+    n:AddSeperator("Tp")
     n:AddButton("Mansion",function()
      game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance",Vector3.new(-12471.169921875, 374.94024658203, -7551.677734375))
     end)
      n:AddButton("Npc Temple of time",function()
  Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2947.556884765625, 2281.630615234375, -7213.54931640625)
     end)
-    n:AddButton("เกาะกลาง",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/92pEPExA"))()
-    end)
-    n:AddButton("เกาะใหม่",function()
-    game.Players.LocalPlayer.Character.Head:Destroy()
-Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-16214.486328125, 9.06057357788086, 517.6160888671875)
-game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
-    end)
-    n:AddButton("เกาะใหม่",function()
-    game.Players.LocalPlayer.Character.Head:Destroy()
-Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2681.2736816406, 1682.8092041016, -7190.9853515625)
-end)
+    
       rn:AddSeperator("Misc")
     Weapon = {}
     
@@ -1185,23 +1159,3 @@ game.Players.LocalPlayer.Character.InfiniteStairs.Disabled = value
     er:AddSeperator("แปลงร่างเผ่า 4(เเค่ อนิเมชั่น)")
 er:AddButton("Comming Soon!!",function()
     end)
-    
-    
-    
-    ---Update
-u:AddSeperator("Update 1")
-u:AddLabel("-Add NewTap ")
-u:AddLabel("-FixBug(Kill aura) ")
-u:AddLabel("-Update Anti Lag/Cpuclock ")
-u:AddLabel("-Fix Human TP")
-u:AddSeperator("Update 2")
-u:AddLabel("-Fix Lag In Dungeon")
-u:AddLabel("-Update Performance Graphics ")
-u:AddSeperator("Update 3")
-u:AddLabel("-FixBug Ui on/off")
-u:AddLabel("-Update HumanTP ")
-u:AddSeperator("Update 4")
-u:AddLabel("-FixBug Scrip Not run")
-u:AddLabel("-Add Bypass TP")
-
------update
