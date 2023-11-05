@@ -1,4 +1,3 @@
-
 _G.Settings = {
     Players = {
         ["Ignore Me"] = true, -- Ignore your Character
