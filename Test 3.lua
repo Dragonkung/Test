@@ -1,4 +1,4 @@
-    --เสือกอีเเก่
+
 _G.Settings = {
     Players = {
         ["Ignore Me"] = true, -- Ignore your Character
