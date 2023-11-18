@@ -1,3 +1,7 @@
+(getgenv()).Config = {
+ ["FastAttack"] = true,
+ ["ClickAttack"] = true
+} 
 
 local ScreenGui1 = Instance.new("ScreenGui")
 local ImageButton1 = Instance.new("ImageButton")
@@ -16351,8 +16355,3 @@ _G.Settings = {
     ["Low Quality Parts"] = false -- Lower quality parts
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dragonkung/Dragonkung/main/FPSBooster.lua"))()
-
-(getgenv()).Config = {
- ["FastAttack"] = true,
- ["ClickAttack"] = true
-} 
