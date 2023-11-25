@@ -4058,6 +4058,9 @@ H:AddLabel("[+] Farm Fish Crew Member|1/11/2566|15:55")
 H:AddLabel("[+] Fix Holy Torch|1/11/2566|15:55")
 H:AddLabel("[x] Fix Auto Sea Beast Fully|6/11/2566|20:57")
 H:AddLabel("[+] Bypass Tele Boss|6/11/2566|20:57")
+H:AddLabel("[^] Improve Lag|25/11/2566|8:59")
+H:AddLabel("[*] Fix All Bug|25/11/2566|9:00")
+H:AddLabel("[+] Add Check boss spawn|25/11/2566|9:03")
 
 
 
