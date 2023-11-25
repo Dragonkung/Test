@@ -5466,7 +5466,7 @@ end)
                 elseif string.len(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner")) == 86 then
                     MobKilled:Set("Defeat : "..string.sub(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner"),39,39))
                 else
-                    MobKilled:Set("Boss Is Spawning")
+                    MobKilled:Set("Boss Is Spawning 😯")
                 end
             end)
         end
@@ -6046,7 +6046,7 @@ spawn(function()
     end
 end)
 
-Main:AddToggle("Fast attack 1 To Slow",true,function(Fast)
+Main:AddToggle("Fast attack 1 ( Slow)",true,function(Fast)
     _G.FastAttackCambodiakak = Fast
 end)
 
