@@ -8165,7 +8165,7 @@ end)
         game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
     end)
 local PepsiUi = library:CreateWindow({
-    Name = "KOBEN HUB",
+    Name = "K_Now | Kaitan",
     Theme = {
         Image = "rbxassetid://7483871523",
         Info = "Info",
